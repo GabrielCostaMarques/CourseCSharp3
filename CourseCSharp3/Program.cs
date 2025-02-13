@@ -1,4 +1,5 @@
 ﻿using CourseCSharp3.CarRental;
+using CourseCSharp3.ContractExec;
 using CourseCSharp3.DirectoryExec;
 using CourseCSharp3.FileInfoFile;
 using CourseCSharp3.FilesStream;
@@ -9,7 +10,7 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        CarRentalUser user = new CarRentalUser();
-        user.CarRentalShow();
+        ContractUser user = new ContractUser();
+        user.ContractShow();
     }
 }

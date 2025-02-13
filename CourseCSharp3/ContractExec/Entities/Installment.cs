@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,7 +18,10 @@ namespace CourseCSharp3.ContractExec.Entities
             Amount = amount;
         }
 
-
+        public override string ToString()
+        {
+            return DueDate.ToString("dd/MM/yyyy") + " - " + Amount.ToString("F2", CultureInfo.InvariantCulture) ;
+        }
 
     }
 }
