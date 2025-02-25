@@ -1,10 +1,11 @@
 ﻿using CourseCSharp3.Aparelhos;
+using CourseCSharp3.Comparable;
 
 internal class Program
 {
     public static void Main(string[] args)
     {
-        DevicesUser user = new DevicesUser();
-        user.DeviceShow();
+        ComparableUser user = new ComparableUser();
+        user.ComparableShow();
     }
 }
