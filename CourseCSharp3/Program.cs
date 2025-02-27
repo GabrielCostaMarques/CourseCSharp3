@@ -1,11 +1,12 @@
 ﻿using CourseCSharp3.Aparelhos;
 using CourseCSharp3.Comparable;
+using CourseCSharp3.Print;
 
 internal class Program
 {
     public static void Main(string[] args)
     {
-        ComparableUser user = new ComparableUser();
-        user.ComparableShow();
+        PrintUser user = new PrintUser();
+        user.PrintShow();
     }
 }
