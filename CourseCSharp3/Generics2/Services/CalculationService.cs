@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CourseCSharp3.Generics2
+namespace CourseCSharp3.Generics2.Services
 {
     internal class CalculationService
     {
