@@ -1,15 +1,11 @@
-﻿using CourseCSharp3.CarRental;
-using CourseCSharp3.DirectoryExec;
-using CourseCSharp3.FileInfoFile;
-using CourseCSharp3.FilesStream;
-using CourseCSharp3.PathUser;
-using CourseCSharp3.StreamWriterExec;
+﻿using CourseCSharp3.GetHashCodeExec;
 
-internal class Program
+
+public class Program
 {
     public static void Main(string[] args)
     {
-        CarRentalUser user = new CarRentalUser();
-        user.CarRentalShow();
+        GetHashUser user = new();
+        user.GetHashShow();
     }
 }
