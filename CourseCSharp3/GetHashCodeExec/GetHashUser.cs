@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CourseCSharp3.GetHashCodeExec.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,9 +12,12 @@ namespace CourseCSharp3.GetHashCodeExec
 
         public void GetHashShow()
         {
-            string a = "Alex";
-            string b = "Maria";
+            Client a = new() { Name= "Maria", Email= "maria@gmail.com"};
 
+            Client b = new() { Name = "Alex", Email = "alex@gmail.com" };
+
+            Console.WriteLine(a.Equals(b));
+            Console.WriteLine(a==b);
             Console.WriteLine(a.GetHashCode());
             Console.WriteLine(b.GetHashCode());
         }

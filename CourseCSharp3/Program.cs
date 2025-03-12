@@ -1,11 +1,12 @@
 ﻿using CourseCSharp3.GetHashCodeExec;
+using CourseCSharp3.Group;
 
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        GetHashUser user = new();
-        user.GetHashShow();
+        GroupUser user = new();
+        user.GroupShow();
     }
 }
