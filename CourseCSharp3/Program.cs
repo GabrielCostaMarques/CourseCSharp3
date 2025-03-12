@@ -1,13 +1,12 @@
-﻿using CourseCSharp3.Aparelhos;
-using CourseCSharp3.Comparable;
-using CourseCSharp3.Generics2;
-using CourseCSharp3.Print;
+﻿using CourseCSharp3.GetHashCodeExec;
+using CourseCSharp3.Group;
 
-internal class Program
+
+public class Program
 {
     public static void Main(string[] args)
     {
-        CalculationUSer user = new CalculationUSer();
-        user.CalculationShow();
+        GroupUser user = new();
+        user.GroupShow();
     }
 }
