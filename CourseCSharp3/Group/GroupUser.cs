@@ -20,6 +20,7 @@ namespace CourseCSharp3.Group
             set.Add("Tablet");
 
             Console.WriteLine(set.Contains("Note"));
+            Console.WriteLine(set.Count);
 
 
             foreach (string p in set)

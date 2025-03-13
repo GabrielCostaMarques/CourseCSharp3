@@ -11,7 +11,7 @@ namespace CourseCSharp3.Comparable
     {
         public void ComparableShow()
         {
-            string path = @"C:\Users\gmarques\Desktop\in.txt";
+            string path = @"C:\Users\gabri\Desktop\in.txt";
 
             try
             {
