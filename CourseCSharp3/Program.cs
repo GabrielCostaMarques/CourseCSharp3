@@ -1,16 +1,11 @@
-﻿using CourseCSharp3.Comparable;
-using CourseCSharp3.Entities;
-using CourseCSharp3.ExercicieReselved;
-using CourseCSharp3.GetHashCodeExec;
-using CourseCSharp3.Group;
-using CourseCSharp3.Students;
+﻿using CourseCSharp3.ExercicieDictionary;
 
 
 public class Program
 {
     public static void Main(string[] args)
     {
-        StudentUser user = new();
-        user.StudentShow();
+        Eleiction user = new();
+        user.EleictionShow();
     }
 }
